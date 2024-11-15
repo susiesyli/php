@@ -1,3 +1,11 @@
+<!doctype html>
+<html>
+<head>
+<title>hello</title>
+</head>
+
+<body>
+    Here is some straight HTML.<br />
 <?php
 // Check if 'n' is set in the query string
 if (isset($_GET['n']) && is_numeric($_GET['n'])) {
@@ -27,3 +35,7 @@ if (isset($_GET['n']) && is_numeric($_GET['n'])) {
     echo json_encode(['error' => 'Invalid input. Please provide a numeric value for "n".']);
 }
 ?>
+
+	
+</body>
+</html>
